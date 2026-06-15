@@ -10,10 +10,26 @@ The overall implementation plan is documented here:
 
 - [Overall Implementation Plan](docs/overall_implementation_plan.md)
 
-Recommended next step:
+Current next step:
 
 ```text
-Create Celonis-ready CSV files and a Celonis setup guide.
+Upload the Celonis-ready CSV files into a Celonis environment and build the first Data Model + View.
+```
+
+## Celonis-ready files
+
+The first Celonis-ready dataset and guide are now available:
+
+- [WORK_ORDERS.csv](data/celonis/WORK_ORDERS.csv)
+- [WORK_ORDER_ACTIVITIES.csv](data/celonis/WORK_ORDER_ACTIVITIES.csv)
+- [Celonis Data Dictionary](docs/celonis_data_dictionary.md)
+- [Celonis Setup Guide](docs/celonis_setup_guide.md)
+- [Celonis PQL Library](docs/celonis_pql_library.md)
+
+Recommended first Celonis target:
+
+```text
+Synthetic data -> Data Model -> View -> KPI -> Action Center
 ```
 
 ## Why this demo exists
@@ -35,7 +51,9 @@ This concept demo shows a simplified closed loop:
 
 ## Included deliverables
 
-- `data/work_orders.csv` — synthetic work order data
+- `data/work_orders.csv` — synthetic work order data for local demo
+- `data/celonis/WORK_ORDERS.csv` — Celonis-ready case table
+- `data/celonis/WORK_ORDER_ACTIVITIES.csv` — Celonis-ready activity table
 - `backend/server.js` — dependency-free local Node.js mock API and static file server
 - `frontend/index.html` — simple demo dashboard
 - `frontend/app.js` — KPI calculation, filtering, and escalation logic
@@ -44,6 +62,9 @@ This concept demo shows a simplified closed loop:
 - `docs/demo_script_en.md` — 3-minute English voiceover script
 - `docs/pitch_deck_outline.md` — 6-slide outline for internal presentation
 - `docs/pql_kpi_examples.md` — example KPI logic that could be translated into Celonis PQL later
+- `docs/celonis_data_dictionary.md` — explanation of Celonis-ready tables and columns
+- `docs/celonis_setup_guide.md` — step-by-step guide for creating the first Celonis Data Model and View
+- `docs/celonis_pql_library.md` — starter PQL formulas for KPI tiles and Action Center
 - `docs/next_steps_to_real_celonis.md` — how to move from local demo to a real Celonis PoC
 - `docs/overall_implementation_plan.md` — step-by-step plan for local demo, Celonis demo, optional Action Flow, and final presentation
 
