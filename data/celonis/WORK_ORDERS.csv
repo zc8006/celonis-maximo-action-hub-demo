@@ -1,0 +1,16 @@
+WORK_ORDER_ID,ASSET_ID,ASSET_NAME,LOCATION,PRIORITY,STATUS,CREATED_DATE,DUE_DATE,COMPLETED_DATE,TECHNICIAN,WORK_TYPE,FAILURE_CODE,WAITING_REASON,SLA_STATUS,ESCALATION_STATUS
+WO-10001,AST-1002,Cooling Tower Fan,Plant A,High,In Progress,2026-06-06,2026-06-12,,Maria Gomez,Calibration,LOW_PRESSURE,Safety permit pending,Breached,Not Escalated
+WO-10002,AST-1001,Boiler Pump A,Plant A,Low,Open,2026-05-07,2026-05-10,,Nina Patel,Preventive Maintenance,MECHANICAL_WEAR,Technician unavailable,Breached,Escalated
+WO-10003,AST-1010,CNC Machine Spindle,Warehouse 1,Critical,Waiting,2026-06-04,2026-06-12,,Nina Patel,Corrective Maintenance,SENSOR_FAIL,Waiting for approval,Breached,Escalated
+WO-10004,AST-1006,Air Compressor,Assembly Line 2,Medium,Open,2026-05-16,2026-05-22,,Ken Tanaka,Calibration,SENSOR_FAIL,Vendor response pending,Breached,Escalated
+WO-10005,AST-1010,CNC Machine Spindle,Plant B,High,Open,2026-05-31,2026-06-12,,Maria Gomez,Emergency Repair,PARTS_WAIT,None,Breached,Not Escalated
+WO-10006,AST-1008,Generator Unit,Packaging Area,High,Open,2026-05-23,2026-06-01,,Maria Gomez,Calibration,VIBRATION,Safety permit pending,Breached,Escalated
+WO-10007,AST-1009,Forklift Charger,Packaging Area,Critical,Open,2026-05-28,2026-06-11,,Maria Gomez,Preventive Maintenance,SENSOR_FAIL,Waiting for approval,Breached,Not Escalated
+WO-10008,AST-1004,Hydraulic Press,Packaging Area,Medium,Completed,2026-05-04,2026-05-21,2026-05-21,David Lee,Preventive Maintenance,PARTS_WAIT,None,On Track,Not Escalated
+WO-10009,AST-1010,CNC Machine Spindle,Utilities Area,Critical,In Progress,2026-05-31,2026-06-07,,Alex Chen,Corrective Maintenance,VIBRATION,Technician unavailable,Breached,Not Escalated
+WO-10010,AST-1003,Conveyor Motor,Packaging Area,Medium,Open,2026-05-21,2026-06-07,,Alex Chen,Corrective Maintenance,PARTS_WAIT,Technician unavailable,Breached,Escalated
+WO-10011,AST-1006,Air Compressor,Plant A,Medium,Open,2026-06-14,2026-06-25,,David Lee,Calibration,OVERHEAT,Technician unavailable,On Track,Not Escalated
+WO-10012,AST-1005,Packaging Line Sensor,Packaging Area,High,Waiting,2026-05-22,2026-06-07,,Ken Tanaka,Preventive Maintenance,LEAK,Waiting for parts,Breached,Not Escalated
+WO-10013,AST-1004,Hydraulic Press,Assembly Line 2,Critical,Open,2026-05-14,2026-05-19,,David Lee,Emergency Repair,VIBRATION,Technician unavailable,Breached,Not Escalated
+WO-10014,AST-1005,Packaging Line Sensor,Assembly Line 2,Critical,In Progress,2026-06-01,2026-06-10,,Sam Wilson,Emergency Repair,MECHANICAL_WEAR,Safety permit pending,Breached,Escalated
+WO-10015,AST-1002,Cooling Tower Fan,Plant B,Medium,In Progress,2026-05-08,2026-05-18,,Maria Gomez,Corrective Maintenance,ELECTRICAL,Technician unavailable,Breached,Escalated
