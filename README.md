@@ -4,6 +4,18 @@ A lightweight local concept demo that simulates how Celonis could identify high-
 
 > This is **not** an official IBM product, **not** an official Celonis Marketplace asset, and **does not** connect to real IBM Maximo or Celonis environments. It uses synthetic sample data and a local mock API for learning, internal discussion, and PoC storytelling.
 
+## Current plan
+
+The overall implementation plan is documented here:
+
+- [Overall Implementation Plan](docs/overall_implementation_plan.md)
+
+Recommended next step:
+
+```text
+Create Celonis-ready CSV files and a Celonis setup guide.
+```
+
 ## Why this demo exists
 
 Maintenance teams often manage many work orders every day. Some work orders are overdue, some are high priority, some are waiting for parts, and some require escalation. The business challenge is not only to monitor these exceptions, but also to prioritize and act on them quickly.
@@ -33,6 +45,7 @@ This concept demo shows a simplified closed loop:
 - `docs/pitch_deck_outline.md` — 6-slide outline for internal presentation
 - `docs/pql_kpi_examples.md` — example KPI logic that could be translated into Celonis PQL later
 - `docs/next_steps_to_real_celonis.md` — how to move from local demo to a real Celonis PoC
+- `docs/overall_implementation_plan.md` — step-by-step plan for local demo, Celonis demo, optional Action Flow, and final presentation
 
 ## How to run locally
 
