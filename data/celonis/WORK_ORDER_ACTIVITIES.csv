@@ -1,0 +1,74 @@
+CASE_KEY,ACTIVITY,EVENT_TIME,SORTING,ACTIVITY_SOURCE,ACTIVITY_DETAIL
+WO-10001,Work Order Created,2026-06-06 09:00:00,10,Synthetic,Priority=High
+WO-10001,Technician Assigned,2026-06-07 10:00:00,20,Synthetic,Maria Gomez
+WO-10001,Work Started,2026-06-08 11:00:00,30,Synthetic,Calibration
+WO-10001,Safety Permit Pending,2026-06-09 12:00:00,40,Synthetic,LOW_PRESSURE
+WO-10001,SLA Breached,2026-06-12 13:00:00,50,Synthetic,Due date passed
+WO-10002,Work Order Created,2026-05-07 09:00:00,10,Synthetic,Priority=Low
+WO-10002,Technician Assigned,2026-05-08 10:00:00,20,Synthetic,Nina Patel
+WO-10002,Technician Unavailable,2026-05-09 12:00:00,40,Synthetic,MECHANICAL_WEAR
+WO-10002,SLA Breached,2026-05-10 13:00:00,50,Synthetic,Due date passed
+WO-10002,Work Order Escalated,2026-05-11 08:00:00,80,Synthetic,Escalation created
+WO-10003,Work Order Created,2026-06-04 09:00:00,10,Synthetic,Priority=Critical
+WO-10003,Technician Assigned,2026-06-05 10:00:00,20,Synthetic,Nina Patel
+WO-10003,Work Started,2026-06-06 11:00:00,30,Synthetic,Corrective Maintenance
+WO-10003,Waiting For Approval,2026-06-07 12:00:00,40,Synthetic,SENSOR_FAIL
+WO-10003,SLA Breached,2026-06-12 13:00:00,50,Synthetic,Due date passed
+WO-10003,Work Order Escalated,2026-06-13 08:00:00,80,Synthetic,Escalation created
+WO-10004,Work Order Created,2026-05-16 09:00:00,10,Synthetic,Priority=Medium
+WO-10004,Technician Assigned,2026-05-17 10:00:00,20,Synthetic,Ken Tanaka
+WO-10004,Vendor Response Pending,2026-05-19 12:00:00,40,Synthetic,SENSOR_FAIL
+WO-10004,SLA Breached,2026-05-22 13:00:00,50,Synthetic,Due date passed
+WO-10004,Work Order Escalated,2026-05-23 08:00:00,80,Synthetic,Escalation created
+WO-10005,Work Order Created,2026-05-31 09:00:00,10,Synthetic,Priority=High
+WO-10005,Technician Assigned,2026-06-01 10:00:00,20,Synthetic,Maria Gomez
+WO-10005,SLA Breached,2026-06-12 13:00:00,50,Synthetic,Due date passed
+WO-10006,Work Order Created,2026-05-23 09:00:00,10,Synthetic,Priority=High
+WO-10006,Technician Assigned,2026-05-24 10:00:00,20,Synthetic,Maria Gomez
+WO-10006,Safety Permit Pending,2026-05-26 12:00:00,40,Synthetic,VIBRATION
+WO-10006,SLA Breached,2026-06-01 13:00:00,50,Synthetic,Due date passed
+WO-10006,Work Order Escalated,2026-06-02 08:00:00,80,Synthetic,Escalation created
+WO-10007,Work Order Created,2026-05-28 09:00:00,10,Synthetic,Priority=Critical
+WO-10007,Technician Assigned,2026-05-29 10:00:00,20,Synthetic,Maria Gomez
+WO-10007,Waiting For Approval,2026-05-31 12:00:00,40,Synthetic,SENSOR_FAIL
+WO-10007,SLA Breached,2026-06-11 13:00:00,50,Synthetic,Due date passed
+WO-10008,Work Order Created,2026-05-04 09:00:00,10,Synthetic,Priority=Medium
+WO-10008,Technician Assigned,2026-05-05 10:00:00,20,Synthetic,David Lee
+WO-10008,Work Started,2026-05-06 11:00:00,30,Synthetic,Preventive Maintenance
+WO-10008,SLA On Track,2026-05-20 13:00:00,50,Synthetic,Within due date
+WO-10008,Work Completed,2026-05-21 14:00:00,60,Synthetic,Completed
+WO-10009,Work Order Created,2026-05-31 09:00:00,10,Synthetic,Priority=Critical
+WO-10009,Technician Assigned,2026-06-01 10:00:00,20,Synthetic,Alex Chen
+WO-10009,Work Started,2026-06-02 11:00:00,30,Synthetic,Corrective Maintenance
+WO-10009,Technician Unavailable,2026-06-03 12:00:00,40,Synthetic,VIBRATION
+WO-10009,SLA Breached,2026-06-07 13:00:00,50,Synthetic,Due date passed
+WO-10010,Work Order Created,2026-05-21 09:00:00,10,Synthetic,Priority=Medium
+WO-10010,Technician Assigned,2026-05-22 10:00:00,20,Synthetic,Alex Chen
+WO-10010,Technician Unavailable,2026-05-24 12:00:00,40,Synthetic,PARTS_WAIT
+WO-10010,SLA Breached,2026-06-07 13:00:00,50,Synthetic,Due date passed
+WO-10010,Work Order Escalated,2026-06-08 08:00:00,80,Synthetic,Escalation created
+WO-10011,Work Order Created,2026-06-14 09:00:00,10,Synthetic,Priority=Medium
+WO-10011,Technician Assigned,2026-06-15 10:00:00,20,Synthetic,David Lee
+WO-10011,Technician Unavailable,2026-06-17 12:00:00,40,Synthetic,OVERHEAT
+WO-10011,SLA On Track,2026-06-24 13:00:00,50,Synthetic,Within due date
+WO-10012,Work Order Created,2026-05-22 09:00:00,10,Synthetic,Priority=High
+WO-10012,Technician Assigned,2026-05-23 10:00:00,20,Synthetic,Ken Tanaka
+WO-10012,Work Started,2026-05-24 11:00:00,30,Synthetic,Preventive Maintenance
+WO-10012,Waiting For Parts,2026-05-25 12:00:00,40,Synthetic,LEAK
+WO-10012,SLA Breached,2026-06-07 13:00:00,50,Synthetic,Due date passed
+WO-10013,Work Order Created,2026-05-14 09:00:00,10,Synthetic,Priority=Critical
+WO-10013,Technician Assigned,2026-05-15 10:00:00,20,Synthetic,David Lee
+WO-10013,Technician Unavailable,2026-05-17 12:00:00,40,Synthetic,VIBRATION
+WO-10013,SLA Breached,2026-05-19 13:00:00,50,Synthetic,Due date passed
+WO-10014,Work Order Created,2026-06-01 09:00:00,10,Synthetic,Priority=Critical
+WO-10014,Technician Assigned,2026-06-02 10:00:00,20,Synthetic,Sam Wilson
+WO-10014,Work Started,2026-06-03 11:00:00,30,Synthetic,Emergency Repair
+WO-10014,Safety Permit Pending,2026-06-04 12:00:00,40,Synthetic,MECHANICAL_WEAR
+WO-10014,SLA Breached,2026-06-10 13:00:00,50,Synthetic,Due date passed
+WO-10014,Work Order Escalated,2026-06-11 08:00:00,80,Synthetic,Escalation created
+WO-10015,Work Order Created,2026-05-08 09:00:00,10,Synthetic,Priority=Medium
+WO-10015,Technician Assigned,2026-05-09 10:00:00,20,Synthetic,Maria Gomez
+WO-10015,Work Started,2026-05-10 11:00:00,30,Synthetic,Corrective Maintenance
+WO-10015,Technician Unavailable,2026-05-11 12:00:00,40,Synthetic,ELECTRICAL
+WO-10015,SLA Breached,2026-05-18 13:00:00,50,Synthetic,Due date passed
+WO-10015,Work Order Escalated,2026-05-19 08:00:00,80,Synthetic,Escalation created
