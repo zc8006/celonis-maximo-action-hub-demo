@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Celonis + Maximo Work Order Action Hub</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <p class="eyebrow">Concept Demo · Synthetic Data · Local Only</p>
+      <h1>Celonis + Maximo Work Order Action Hub</h1>
+      <p class="subtitle">Detect high-risk work order exceptions, prioritize SLA risks, and trigger an escalation action through a mock API.</p>
+    </div>
+    <div class="hero-card">
+      <span class="label">Demo flow</span>
+      <strong>Detect → Prioritize → Act → Track</strong>
+    </div>
+  </header>
+
+  <main>
+    <section class="kpi-grid" id="kpis"></section>
+
+    <section class="panel">
+      <div class="panel-header">
+        <div>
+          <h2>Action Center</h2>
+          <p>Focus on work orders that need attention and trigger follow-up actions.</p>
+        </div>
+        <div class="filters">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="overdue">Overdue</button>
+          <button class="filter" data-filter="highPriority">High Priority</button>
+          <button class="filter" data-filter="waitingParts">Waiting for Parts</button>
+          <button class="filter" data-filter="notEscalated">Not Escalated</button>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Work Order</th>
+              <th>Asset</th>
+              <th>Location</th>
+              <th>Priority</th>
+              <th>Status</th>
+              <th>Due Date</th>
+              <th>SLA</th>
+              <th>Waiting Reason</th>
+              <th>Escalation</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="work-order-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="log-panel">
+      <h2>Execution Log</h2>
+      <pre id="execution-log">No action has been triggered yet.</pre>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
