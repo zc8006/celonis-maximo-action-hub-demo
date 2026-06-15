@@ -1,0 +1,11 @@
+{
+  "name": "celonis-maximo-action-hub-demo",
+  "version": "0.1.0",
+  "description": "Local concept demo simulating Celonis + Maximo work order exception escalation.",
+  "private": true,
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "keywords": ["celonis", "maximo", "work-order", "action-flow", "demo"],
+  "license": "UNLICENSED"
+}
