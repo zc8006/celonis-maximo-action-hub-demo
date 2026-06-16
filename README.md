@@ -4,17 +4,29 @@ A lightweight local concept demo that simulates how Celonis could identify high-
 
 > This is **not** an official IBM product, **not** an official Celonis Marketplace asset, and **does not** connect to real IBM Maximo or Celonis environments. It uses synthetic sample data and a local mock API for learning, internal discussion, and PoC storytelling.
 
+## Current status
+
+The current Celonis build status is documented here:
+
+- [Current Demo Status](docs/current_demo_status.md)
+
+Completed in the Celonis environment:
+
+- Overview tab with KPI cards and root-cause charts
+- Work Order Process Flow tab with Process Explorer
+- Basic Action Center View
+
+Current next step:
+
+```text
+Upgrade the Action Center into a Top Risk Work Orders view with Risk Score and Recommended Action.
+```
+
 ## Current plan
 
 The overall implementation plan is documented here:
 
 - [Overall Implementation Plan](docs/overall_implementation_plan.md)
-
-Current next step:
-
-```text
-Upload the Celonis-ready CSV files into a Celonis environment and build the first Data Model + View.
-```
 
 ## Celonis-ready files
 
@@ -44,10 +56,10 @@ This concept demo shows a simplified closed loop:
 
 1. A user opens the Work Order Action Hub dashboard.
 2. The dashboard highlights open work orders, overdue work orders, high-priority overdue work orders, and escalated work orders.
-3. The user filters the Action Center to focus on urgent exceptions.
-4. The user clicks **Escalate** for an overdue high-priority work order.
-5. A local mock API simulates an external system action, such as creating an escalation in Maximo, MuleSoft, ServiceNow, or Microsoft Teams.
-6. The dashboard writes back the result and updates the escalation status.
+3. The user reviews the process flow to understand where work orders get delayed.
+4. The user opens the Action Center to focus on urgent exceptions.
+5. The user can later trigger or simulate an escalation action for high-risk work orders.
+6. The result can be tracked as part of the insight-to-action story.
 
 ## Included deliverables
 
@@ -65,6 +77,7 @@ This concept demo shows a simplified closed loop:
 - `docs/celonis_data_dictionary.md` — explanation of Celonis-ready tables and columns
 - `docs/celonis_setup_guide.md` — step-by-step guide for creating the first Celonis Data Model and View
 - `docs/celonis_pql_library.md` — starter PQL formulas for KPI tiles and Action Center
+- `docs/current_demo_status.md` — current status of the Celonis environment demo and remaining upgrade steps
 - `docs/next_steps_to_real_celonis.md` — how to move from local demo to a real Celonis PoC
 - `docs/overall_implementation_plan.md` — step-by-step plan for local demo, Celonis demo, optional Action Flow, and final presentation
 
